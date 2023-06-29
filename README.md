@@ -1,5 +1,7 @@
 ## Micronaut bug when beans from different packages have the same class name
 
+See issue in Micronaut repo here: https://github.com/micronaut-projects/micronaut-core/issues/9526
+
 Bug preventing app from being built. Reproduce by trying to build the app:
 ```sh
 ./gradlew clean build
